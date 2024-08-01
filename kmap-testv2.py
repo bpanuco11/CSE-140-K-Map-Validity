@@ -85,10 +85,10 @@ if choice == 'A':
     table = get_user_input()
 elif choice == 'B':
     table = [
-        [0, 1, 2, 3], # 0
-        [1, 2, 3, 0], # 1
-        [2, 3, 3, 1], # 2
-        [3, 0, 1, 0]  # 3
+        [3, 0, 1, 2], # 0
+        [0, 1, 2, 3], # 1
+        [1, 2, 0, 3], # 2
+        [2, 3, 3, 1]  # 3
     ]
 else:
     print(f"{RED}Invalid choice. Please enter 'A' or 'B'.{RESET}")
